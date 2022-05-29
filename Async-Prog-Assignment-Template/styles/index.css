@@ -1,0 +1,42 @@
+
+
+    #navbar{
+        border: 2px solid aqua;
+        margin-top: 20px;
+       
+    }
+
+    #slideshow{
+        height: 500px;
+        margin: 20px auto;
+        
+        border: 5px solid black;
+    }
+    #slideshow>img{
+        height: 100%;
+        width: 100%;
+    }
+
+    #movies{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(3,1fr);
+        text-align: center;
+    }
+    #movies>div{
+        height: 400px;
+    }
+    #movies>div>img{
+        width: 100%;
+        height: 50%;
+    }
+    #movies>div>p{
+        width: 95%;
+        /* height: 20px; */
+        font-size: 5px;
+        overflow: hidden;
+    }
+    #movies>div>p:hover{
+        font-size: 15px;
+        overflow: scroll;
+    }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        #navbar_container{
+            display: grid;
+            gap: 30px;
+            grid-template-columns: repeat(2,1fr);
+            height: 80px;
+            margin: auto;
+            border: 1px solid black;
+
+        }
+        #right{
+              display: grid;
+              gap: 10px;
+             justify-content: center;
+              grid-template-columns: repeat(3,1fr);
+              margin-top: 30px;
+        }
+        a{
+            color: black;
+            text-decoration: none;           
+        }
+        #right>div{
+            border: 1px solid red;
+             display: flex;
+             justify-content: center;
+             
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar_container">
+              <div id="left">
+                  
+              </div>
+              <div id="right">
+                  <div>
+                      <a href="#">Home</a>
+                  </div>
+                  <div><a href="signup.html">SignUp</a></div>
+                  <div><a href="login.html">Login</a></div>
+              </div>
+    </div>
+</body>
+</html>
